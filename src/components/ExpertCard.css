@@ -1,0 +1,30 @@
+.expert-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .expert-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .expert-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .expert-card h3 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  
+  .expert-card p {
+    color: gray;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,12 @@
+.home-container {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .experts {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  

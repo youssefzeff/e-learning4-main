@@ -1,0 +1,222 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  color: #87CEEB;
+}
+
+.form-container {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+button {
+  background-color: #87CEEB;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #87CEEB;
+}
+
+.message {
+  text-align: center;
+  color: #f44336;
+  font-weight: bold;
+}
+
+.user-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+.add-btn {
+  background-color: #87CEEB;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0; 
+  width: 200px; 
+}
+
+.add-btn:hover {
+  background-color: #00BFFF; 
+}
+
+
+.notification {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border-radius: 5px;
+  transition: opacity 0.5s ease-out;
+}
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.options-container {
+  margin: 20px 0;
+}
+
+.option {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.option.selected {
+  background-color: #87CEEB;
+  border-color: #87CEEB;
+}
+
+.next-button,
+.reset-button {
+  background-color: #87CEEB;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.next-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.result-container {
+  margin-top: 20px;
+}
+
+h1, h2 {
+  color: #87CEEB;
+}
+
+
+
+
+.courses-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.course-card {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.course-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.price-container, .payment-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #7e57c2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5e35b1;
+}
+
+.payment-methods div {
+  margin: 10px 0;
+}

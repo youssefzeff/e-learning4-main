@@ -1,0 +1,53 @@
+.support-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f4f7fc;
+  }
+  
+  .support-page h1 {
+    text-align: center;
+    color: #87CEEB;
+  }
+  
+  .support-contact {
+    margin-top: 30px;
+    background: #e6f7ff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .support-contact p {
+    margin: 10px 0;
+  }
+  
+  .support-form {
+    margin-top: 30px;
+  }
+  
+  .support-form input,
+  .support-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .support-form button {
+    background-color: #87CEEB;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .support-form button:hover {
+    background-color: #00BFFF;
+  }
+  

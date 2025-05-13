@@ -1,0 +1,74 @@
+/* src/components/VirtualClassCard.css */
+.virtual-class-card {
+    background-color: white;
+    border: 1px solid #87CEEB;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .virtual-class-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .instructor-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .instructor-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .instructor-name {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .status-tag {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .status-tag.live {
+    background-color: #32CD32;
+  }
+  
+  .status-tag.upcoming {
+    background-color: #FFA500;
+  }
+  
+  .status-tag.ended {
+    background-color: #888;
+  }
+  
+  .join-class-btn {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #87CEEB;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .join-class-btn:hover {
+    background-color: #00BFFF;
+  }
+  
+  .join-class-btn:disabled {
+    background-color: #A9A9A9;
+    cursor: not-allowed;
+  }
+  
